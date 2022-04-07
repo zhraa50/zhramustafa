@@ -1,0 +1,125 @@
+
+body 
+{
+    background-color: rgba(22, 187, 233, 0.668);
+}
+img {
+    border-radius: 50%;
+    width: 200px;
+   margin-left: 5cm;
+   margin-top: 2cm;
+ 
+}
+   th, td {
+    padding: 50px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+    background-color: #111212;
+    color: white;
+    margin:center ;
+
+  }
+ 
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration : underline;
+    margin-right: 18cm;
+   
+ 
+      
+  }
+  .summary {
+    padding: 20px;
+     font-size: 1.6rem;
+  letter-spacing: .2rem;  }
+  .education
+  {
+    padding: 20px;
+     font-size: 1.6rem;
+  letter-spacing: .2rem;  
+}
+
+ 
+  .timeline-block {
+	position: relative;
+	padding-left: 30px;
+}
+.timeline-block:not(:last-of-type) {
+	margin-bottom: 1rem;	
+}
+.timeline-block h1 {
+	font-size: 1rem;
+	margin: 5px 0;
+	transition: all 0.3s;
+}
+.timeline-block p {
+	font-size: 0.8rem;
+	margin: 5px 0;
+}
+.timeline-block time {
+	font-size: 0.8rem;
+	color: var(--color-gray-dark-2);
+}
+.timeline-block::before {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border: 3px solid var(--timeline-circle-theme);
+	border-radius: 50%;
+	left: -10px;
+	top: -5px;
+}
+.timeline-block::after {
+	position: absolute;
+	content: '';
+	width: 3px;
+	height: 100%;
+	background-color: var(--timeline-circle-theme);
+	left: -1px;
+	top: 13px;
+}
+.timeline-block:hover h1 {
+	color: var(--color-tiffany);
+}
+.timeline-block:hover::before {
+	animation: circle 1.2s infinite;
+}
+
+
+    .skill-set li
+{
+    text-transform: uppercase;
+    margin-right: 18cm;
+
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+.button {
+    
+        border: none;
+        color: rgb(12, 12, 12);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+  
+    
+  
+  
+
